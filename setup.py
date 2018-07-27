@@ -17,10 +17,10 @@ gh_repo = 'https://github.com/weaming/thunder-subtitle'
 setup(
     name='thunder-subtitle',  # Required
 
-    version='0.1.1',  # Required
+    version='0.1.2',  # Required
 
     # This is a one-line description or tagline of what your project does.
-    description='Search RFCs using alfred',  # Required
+    description='下载迅雷看看字幕',  # Required
 
     url=gh_repo,  # Optional
     author='weaming',  # Optional
