@@ -10,7 +10,7 @@ install: clean build
 
 build:
 	python setup.py sdist
-	python setup.py bdist_wheel --universal
+	python setup.py bdist_wheel --python-tag py3
 
 publish: clean build install
 	twine upload dist/* && git push --follow-tags
