@@ -6,6 +6,18 @@ Thanks to [DCjanus/ThunderSubs](https://github.com/DCjanus/ThunderSubs)
 
 `pip install -U thunder-subtitle`
 
+```
+$ thunder-subtitle -h
+usage: thunder-subtitle [-h] [-i INDEX] path
+
+positional arguments:
+  path                  movie path
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INDEX, --index INDEX
+                        index to download
+```
 
 ## Example
 
