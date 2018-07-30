@@ -1,4 +1,4 @@
-.PHONY: test build install publish generate-json
+.PHONY: build install uninstall publish
 
 # the library name
 name = thunder-subtitle
