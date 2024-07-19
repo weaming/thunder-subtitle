@@ -39,7 +39,7 @@ setup(
     # Any package you put here will be installed by pip when your project is
     # installed, so they must be valid existing projects.
     install_requires=[
-        'drawtable',
+        'drawtable @ git+https://github.com/weaming/drawtable.git',
     ],  # Optional
 
     # If there are data files included in your packages that need to be
